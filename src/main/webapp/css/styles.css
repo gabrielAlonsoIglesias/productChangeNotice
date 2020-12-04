@@ -1,0 +1,81 @@
+html, body {
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #666666;
+	padding: 0pt;
+	margin: 0pt;
+}
+
+h1, h2, h3 {
+	color: #00457D;
+}
+
+h1 {
+	padding-left: 1.5em;
+}
+
+fieldset {
+	padding-left: 5pt;
+	padding-right: 5pt;
+	border: #CCCCCC 1px solid;
+	background: #F2F2F2;
+}
+
+label {
+	font-weight: bold;
+}
+
+form input {
+	font: 9pt Tahoma;
+	color: gray;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
+}
+
+.pagePortal {
+	padding-left: 3em;
+}
+
+#scanProductSpecForm, 
+#changeProductSpecForm {
+	padding-top: 3em;
+}
+
+#notifications {
+	width: 95%;
+}
+
+.button {
+	background-color: #00457D;
+	color: #FFFFFF;
+	width: 7em;
+	border: none;
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	margin-left: 3pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+}
+
+.info {
+	background-image:url('../images/info.png');
+	background-repeat: no-repeat;
+	background-position: 0.5em 0.5em;
+	background-color: #ffEEEE;
+	color: #000000;
+	border: 0.1em solid rgb(128, 128, 192);
+	border-radius: 11px 11px 11px 11px;
+	-moz-border-radius: 11px 11px 11px 11px;
+	-webkit-border-radius: 11px 11px 11px 11px;
+	padding: 0.55em 0 0.5em 2.4em;
+	margin-top: 0.2em;
+	font-weight: bold;
+}
+
+

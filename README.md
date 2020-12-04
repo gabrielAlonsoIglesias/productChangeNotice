@@ -1,2 +1,1 @@
-# productChangeNotice
-Use Case Customer Product Change
+PoC Use Case Customer product change  information
