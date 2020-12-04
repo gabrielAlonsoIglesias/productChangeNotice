@@ -1,2 +1,2 @@
 # productChangeNotice
-User Case Customer Product Change
+Use Case Customer Product Change
