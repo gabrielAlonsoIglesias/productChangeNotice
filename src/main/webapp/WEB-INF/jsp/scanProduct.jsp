@@ -88,7 +88,7 @@
 				});
 */
 
-
+/*
 				function requestNotifications() {
 
 //				    alert("")
@@ -100,6 +100,7 @@
 				requestNotifications();	 
 
 			});
+*/			
 		</script>
 	</head>
 

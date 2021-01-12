@@ -1,1 +1,4 @@
-PoC Use Case Customer product change  information
+# Resume #
+Behaviour (Observer) Design Pattern PoC
+ 
+# Details #
