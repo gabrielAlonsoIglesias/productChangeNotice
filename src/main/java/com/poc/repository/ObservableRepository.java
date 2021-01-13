@@ -2,18 +2,20 @@ package com.poc.repository;
 
 import java.util.List;
 
-import com.poc.entity.Observable;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.poc.entity.ObservableEntity;
 import com.poc.exception.RepositoryException;
 
 /**
- * @author Gabriel 
+ * @author galonsoi
  */
-public interface ObservableRepository {
+public interface ObservableRepository extends MongoRepository<ObservableEntity, String> {
+/*
+	public List<ObservableEntity> findAll() throws RepositoryException;
 
-	public List<Observable> findAll() throws RepositoryException;
-
-	public void insert(Observable observable) throws RepositoryException;
+	public void insert(ObservableEntity observable) throws RepositoryException;
 	
-	public void delete(Observable observable) throws RepositoryException;
-
+	public void delete(ObservableEntity observable) throws RepositoryException;
+*/
 }

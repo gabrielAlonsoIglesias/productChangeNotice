@@ -8,7 +8,7 @@ import com.poc.exception.ServiceException;
 
 
 /**
- * @author
+ * @author galonsoi
  */
 public interface ProductNotificationService {
 

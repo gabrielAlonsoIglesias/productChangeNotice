@@ -8,7 +8,7 @@ import org.apache.commons.logging.LogFactory;
 import com.poc.domain.Message;
 
 /**
- * @author
+ * @author galonsoi
  */
 public class ProductObservable extends Observable {
 

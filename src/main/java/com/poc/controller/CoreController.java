@@ -3,6 +3,9 @@ package com.poc.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * @author galonsoi
+ */
 public abstract class CoreController {
 
 	public Object getAttributeFromRequest(HttpServletRequest request, String nameAttr) {

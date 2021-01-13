@@ -6,7 +6,7 @@ import java.util.Objects;
 import com.poc.common.Constants;
 
 /**
- * @author
+ * @author galonsoi
  */
 public class ChangeEventEntity implements Serializable {
 

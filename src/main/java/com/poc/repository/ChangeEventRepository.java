@@ -6,7 +6,7 @@ import com.poc.entity.ChangeEventEntity;
 import com.poc.exception.RepositoryException;
 
 /**
- * @author 
+ * @author galonsoi
  */
 public interface ChangeEventRepository {
 

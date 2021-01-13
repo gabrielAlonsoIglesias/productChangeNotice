@@ -16,7 +16,7 @@ import com.poc.service.ProductNotificationService;
 
 
 /**
- * @author
+ * @author galonsoi
  */
 @Service("productNotificationService")
 public class ProductNotificationServiceImpl implements ProductNotificationService {

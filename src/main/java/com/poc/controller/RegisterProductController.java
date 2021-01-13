@@ -20,7 +20,7 @@ import com.poc.service.ProductNotificationService;
 
 
 /**
- * @author
+ * @author galonsoi
  */
 @Controller("registerProductController")
 public class RegisterProductController extends CoreController {

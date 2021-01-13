@@ -16,6 +16,9 @@ import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 import org.springframework.web.servlet.view.XmlViewResolver;
 
+/**
+ * @author galonsoi
+ */
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
 

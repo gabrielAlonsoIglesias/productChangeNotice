@@ -7,7 +7,7 @@ import com.poc.domain.Message;
 import com.poc.entity.ChangeEventEntity;
 
 /**
- * @author
+ * @author galonsoi
  */
 @Component("changeEventAdapter")
 public class ChangeEventAdapter {

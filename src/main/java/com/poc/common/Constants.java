@@ -1,8 +1,7 @@
 package com.poc.common;
 
 /**
- *
- * @author
+ * @author galonsoi
  */
 public final class Constants {
 

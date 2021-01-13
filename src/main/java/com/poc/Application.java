@@ -12,6 +12,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * @author galonsoi
+ */
 @ConfigurationProperties
 @Configuration
 @ComponentScan(basePackages = {"com.poc.*"})
@@ -28,10 +31,8 @@ public class Application extends SpringBootServletInitializer {
 
 			LOG.info("main # ENTER");
 
-			final SpringApplication application = new SpringApplicationBuilder(Application.class)
-														.properties("spring.config.name:application")
-														.build();
-		
+			final SpringApplication application = new SpringApplicationBuilder(Application.class).properties("spring.config.name:application")
+																								 .build();
 			application.run(args);
 
 			LOG.info("main # EXIT");

@@ -1,7 +1,7 @@
 package com.poc.exception;
 
 /**
- * @author 
+ * @author galonsoi
  */
 public class RepositoryException extends Exception {
 

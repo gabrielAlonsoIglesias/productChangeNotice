@@ -6,7 +6,7 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
- * @author
+ * @author galonsoi
  */
 public class ResultNotifications implements Serializable {
 

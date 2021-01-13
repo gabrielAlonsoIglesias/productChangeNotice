@@ -5,9 +5,8 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 /**
- * @author Gabriel
+ * @author galonsoi
  */
-
 public class Observer implements Serializable {
 
 	private static final long serialVersionUID = 794572691569499322L;

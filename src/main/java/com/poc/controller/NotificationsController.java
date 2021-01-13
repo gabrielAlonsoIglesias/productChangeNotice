@@ -22,7 +22,7 @@ import com.poc.service.ProductNotificationService;
 
 
 /**
- * @author
+ * @author galonsoi
  */
 @Controller("notificationsController")
 public class NotificationsController extends CoreController {

@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Objects;
 
 /**
- * @author
+ * @author galonsoi
  */
 public class Message implements Serializable {
 

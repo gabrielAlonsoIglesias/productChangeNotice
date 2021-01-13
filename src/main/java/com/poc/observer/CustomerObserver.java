@@ -10,7 +10,7 @@ import com.poc.domain.Message;
 import com.poc.service.ProductNotificationService;
 
 /**
- * @author
+ * @author galonsoi
  */
 public class CustomerObserver implements Observer {
 

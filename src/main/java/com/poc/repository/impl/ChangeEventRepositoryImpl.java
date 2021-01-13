@@ -21,7 +21,7 @@ import com.poc.exception.RepositoryException;
 import com.poc.repository.ChangeEventRepository;
 
 /**
- * @author
+ * @author galonsoi
  */
 @Repository("changeEventRepositoryImpl")
 public class ChangeEventRepositoryImpl implements ChangeEventRepository {

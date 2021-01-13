@@ -2,6 +2,9 @@ package com.poc.domain;
 
 import java.io.Serializable;
 
+/**
+ * @author galonsoi
+ */
 public class FormModel implements Serializable {
 
 	private static final long serialVersionUID = 2L;

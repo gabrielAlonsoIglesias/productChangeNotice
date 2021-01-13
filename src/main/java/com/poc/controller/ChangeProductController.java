@@ -4,6 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
@@ -13,17 +14,26 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.poc.common.Constants;
 import com.poc.domain.FormModel;
 import com.poc.domain.Message;
+import com.poc.entity.ObservableEntity;
 import com.poc.observable.ProductObservable;
+import com.poc.repository.ObservableRepository;
+import com.poc.util.DateUtils;
 
 
 /**
- * @author
+ * @author galonsoi
  */
 @Controller("changeProductController")
 public class ChangeProductController extends CoreController {
 
 	private static final Log LOG = LogFactory.getLog(ChangeProductController.class);
 	
+	@Autowired
+	private ObservableRepository observableRepository;
+	
+	@Autowired
+	private DateUtils dateUtils;
+
 	@RequestMapping("/changeProductController/init")
 	public String initForm(ModelMap model,
 			   			   HttpServletRequest request) {		
@@ -42,6 +52,9 @@ public class ChangeProductController extends CoreController {
 		try {
 			ProductObservable observable = (ProductObservable) super.getAttributeFromSession(request, Constants.PRODUCT_OBSERVABLES);
 
+			this.observableRepository.insert(new ObservableEntity(formModel.getProductId(), "Gabriel", "galonsoi", this.dateUtils.getCurrentLocalDateTime()));
+
+			
 			if (observable != null) {
 				observable.setChanged(new Message(formModel.getProductId(), getChangeDescription(formModel.getProductId())));	
 			} else {
